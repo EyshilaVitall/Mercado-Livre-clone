@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(255, 252, 249);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: left;
+  color: black;
+  font-size: 22px;
+}
+.titleMain {
+  margin-left: -250px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+div {
+  text-align: center;
+}
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: yellow;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: flex-start;
+}
+.busca {
+  display: flex;
+  justify-content: center;
+  margin-left: -30rem;
+  
+}
+.searchInput {
+  width: 60%;
+  height: 40px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.corpo {
+  width: 960px;
+  margin: auto;
+}
+.conteudo {
+  display: table;
+  margin-top: 8rem;
+}
+.imagem {
+  float: left;
+}
+img {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: rgb(7, 168, 84);
+  font-size: 23px;
+}
+header {
+  background-color: #fff159;
+  color: rgb(11, 11, 99);
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3 {
+  color: black transparent;
+  font-size: 26px;
+}
+button {
+  color: black;
+  background-color: ghostwhite;
+  padding: 16px;
+  border-radius: 20px;
+}
+button:hover {
+  border-color: blue;
+}
+.valor {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+input {
+  width: 500px;
+  position: absolute;
+}
+.botao {
+  color: black;
+  background-color: #2968c8;
+  font-size: 20px;
+  width: 49%;
+  border-radius: 10px;
+}
+.botao:hover {
+  background-color: rgb(37, 153, 248);
+}
+i {
+  color: black;
+  width: 100px;
+}
