@@ -5,10 +5,7 @@ body {
   padding: 0;
 }
 
-h1 {
-  text-align: left;
-  color: black;
-  font-size: 22px;
+
 }
 .titleMain {
   margin-left: -250px;
@@ -31,6 +28,11 @@ header {
   padding: 10px;
   align-items: flex-start;
 }
+.image{
+  float: left;
+   height: 70px;
+   margin-left: -100;
+ }
 .busca {
   display: flex;
   justify-content: center;
@@ -60,6 +62,7 @@ header {
 }
 .imagem {
   float: left;
+margin-left: -100px;
 }
 img {
   display: flex;
@@ -113,4 +116,8 @@ input {
 i {
   color: black;
   width: 100px;
+}
+.image{
+  margin-top: -7px;
+  margin-left: -400px;
 }
